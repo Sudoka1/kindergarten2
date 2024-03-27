@@ -70,28 +70,28 @@ footer a {
     margin: 0 10px;
 
 
-#first-section {
+.first-sect {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#first-section div {
+.first-sect div {
     display: flex;
     position: relative;
 }
 
-#first-section div .left{
+.first-sect .back-left{
     width: 25%;
     height: 400px;
     background: #f6f6f6;
 }
 
-#first-section div .right{
+.first-sect .back-right{
     width: 75%;
     height: 400px;
     background: url(https://images.pexels.com/photos/8613062/pexels-photo-8613062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) center/cover;
 }
 
-#first-section article {
+.first-sect article {
     width: 400px;
     height: 250px;
     background-color: white;
@@ -107,18 +107,18 @@ footer a {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-#first-section article h1 {
+.first-sect article h1 {
     text-transform: uppercase;
     font-size: 36px;
     width: 60%;
 }
 
-#first-section article p {
+.first-sect article p {
     width: 60%;
     color: gray;
 }
 
-#first-section article a {
+.first-sect article a {
     background-color: #DC4886;
     color: white;
     text-decoration: none;
@@ -127,7 +127,7 @@ footer a {
     align-self: flex-end;
 }
 
-#first-section article a i {
+.first-sect article a i {
     margin-left: 10px;
 
 }
