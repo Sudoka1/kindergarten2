@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /*second section*/
 
 .content {
@@ -67,4 +68,66 @@ footer a {
     color: #0f037a;
     text-decoration: none;
     margin: 0 10px;
+
+
+#first-section {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#first-section div {
+    display: flex;
+    position: relative;
+}
+
+#first-section div .left{
+    width: 25%;
+    height: 400px;
+    background: #f6f6f6;
+}
+
+#first-section div .right{
+    width: 75%;
+    height: 400px;
+    background: url(https://images.pexels.com/photos/8613062/pexels-photo-8613062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) center/cover;
+}
+
+#first-section article {
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 20px 20px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#first-section article h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    width: 60%;
+}
+
+#first-section article p {
+    width: 60%;
+    color: gray;
+}
+
+#first-section article a {
+    background-color: #DC4886;
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 1rem;
+    align-self: flex-end;
+}
+
+#first-section article a i {
+    margin-left: 10px;
+
 }
